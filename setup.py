@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(
-    name="tap-attach_io",
+    name="tap-attachio",
     version="0.1.0",
     description="Singer.io tap for extracting data",
     author="Stitch",
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points="""
     [console_scripts]
-    tap-attach_io=tap_attach_io:main
+    tap-attachio=tap_attach_io:main
     """,
     packages=["tap_attach_io"],
     package_data = {
