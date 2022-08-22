@@ -1,0 +1,26 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+	  "id": {
+		"type": ["null", "string"]
+	  },
+	  "name": {
+		"type": ["null", "string"]
+	  },
+	  "isShared": {
+		"type": ["null", "boolean"]
+	  },
+	  "createdAt": {
+		"type": ["null", "string"],
+        "format": "date-time"
+	  },
+	  "updatedAt": {
+		"type": ["null", "string"],
+        "format": "date-time"
+	  },
+	  "isSharedWithAll": {
+		"type": ["null", "boolean"]
+	  }
+	}
+  }
